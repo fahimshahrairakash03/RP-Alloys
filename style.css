@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+.menuBar {
+  margin-left: 25px;
+}
+.followtext {
+  margin-right: 25px;
+}
+.banner {
+  position: relative;
+  margin: 60px;
+}
+.bannerImg {
+  width: 100%;
+}
+.bannerText {
+  position: absolute;
+  left: 0;
+  margin-top: 107px;
+  margin-left: 111px;
+  width: 500px;
+}
