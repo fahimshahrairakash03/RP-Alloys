@@ -274,3 +274,127 @@
 #footer-menu3 {
   border: none;
 }
+
+@media screen and (max-width: 749px) {
+  .bannerImg {
+    width: 100%;
+    padding: 0px;
+  }
+  .bannerText {
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+  }
+  .statistics {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .statistics-heading {
+    display: flex;
+    flex-direction: column;
+  }
+  .statistics-details {
+    width: 80px;
+    margin-top: 20px;
+  }
+  .statistics-value {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .stat-value-details {
+    margin-bottom: 30px;
+  }
+  .services {
+    margin-top: 0;
+  }
+  .services {
+    position: relative;
+    width: 100%;
+  }
+  .service-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+  }
+  .service-cards {
+    position: absolute;
+    top: 0;
+    margin-top: 380px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .service-card {
+    margin-bottom: 20px;
+  }
+  .industries {
+    margin-top: 1300px;
+  }
+  .industry-heading {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .industry-img {
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .industry-text {
+    color: #9198a0;
+    margin-left: 15px;
+    text-align: center;
+  }
+  .industry-cards {
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    display: grid;
+    grid-row-gap: 20px;
+
+    grid-template-columns: repeat(1, 1fr);
+    border-left: solid 2px #ec2232;
+  }
+  .information {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .info-text {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .info-text-2 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  .info-text-1 {
+    font-size: 5px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .company {
+    padding: 0 0 0 100px;
+  }
+  .company-details {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 70px;
+  }
+  .contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 150px;
+    padding-bottom: 150px;
+  }
+}
